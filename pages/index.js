@@ -12,22 +12,22 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+        <h1 className={[styles.title, 'text-3xl font-bold underline'].join(' ')}>
+          Welcome to <a href="https://nextjs.org">Coffee House with Next.js!</a>
         </h1>
 
-        <p className={styles.description}>
+        <p className={[styles.description, ' hidden d-none'].join(' ')}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
 
-        <div className={styles.grid}>
+        <div className={[styles.grid, ' hidden d-none'].join(' ')}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="https://nextjs.org/learn" className={[styles.card, ' hidden d-none'].join(' ')}>
             <h2>Learn &rarr;</h2>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
