@@ -1,4 +1,9 @@
 :root {
+  --orange-1: rgba(232,130,21,0.7);
+  --orange-2: #fa8c16;
+  --orange-3: rgba(255,231,186,0.6);
+  --orange-4: #ff792c;
+  --orange-5: #e57905;
   --radial-gradient-orange-1: radial-gradient(100% 501.4% at 0% 100%,#ffb141 0%,#fb8d17 100%);
   --radial-gradient-orange-2: radial-gradient(100% 501.4% at 100% 100%,#ffb141 0%,#fb8d17 100%);
   --radial-gradient-orange-3: radial-gradient(100% 100% at 0% 0%,#f5222d 0%,#fb8d17 100%);
