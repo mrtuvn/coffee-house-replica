@@ -1,6 +1,27 @@
+:root {
+  --radial-gradient-orange-1: radial-gradient(100% 501.4% at 0% 100%,#ffb141 0%,#fb8d17 100%);
+  --radial-gradient-orange-2: radial-gradient(100% 501.4% at 100% 100%,#ffb141 0%,#fb8d17 100%);
+  --radial-gradient-orange-3: radial-gradient(100% 100% at 0% 0%,#f5222d 0%,#fb8d17 100%);
+  --radial-gradient-orange-4: radial-gradient(100% 488.28% at 0% 100%,#e87800 0%,#fa8c16 100%);
+  --radial-gradient-orange-5: radial-gradient(100% 1636.16% at 100% 0%,#fff2d8 0%,#ffe7ba 100%);
+  --radial-gradient-orange-6: radial-gradient(100% 500% at 0% 0%,#fa8c16 0%,#874d00 100%);
+  --radial-gradient-orange-7: radial-gradient(100% 501.4% at 0% 100%,#fb8d17 0%,#ffb141 100%);
+  --radial-gradient-orange-8: radial-gradient(100% 584.59% at 0% 50%,#d46b08 0%,#874d00 100%);
+  --radial-gradient-orange-9: radial-gradient(75.9% 488.28% at 24.1% 100%,#e87800 0%,#fa8c16 100%);
+  --radial-gradient-orange-10: radial-gradient(100% 828.83% at 0% 100%,#e87800 0%,#fa8c16 100%);
+  --header-height: 80px;
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+  .container {
+      @apply mx-auto;
+  }
+}
 
 html,
 body {
