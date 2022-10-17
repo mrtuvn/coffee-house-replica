@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 function Footer() {
   return (
@@ -12,18 +13,18 @@ function Footer() {
             <div className="col">
               Thông tin website
               <ul>
-                <li><a href="/">Trang chủ</a></li>
-                <li><a href="/product-listing">Đặt hàng</a></li>
-                <li><a href="/blogs">Tin tức</a></li>
-                <li><a href="">Tuyển dụng</a></li>
-                <li><a href="/">Khuyến mãi</a></li>
+                <li><Link href="/"><a>Trang chủ</a></Link></li>
+                <li><Link href="/product-listing"><a>Đặt hàng</a></Link></li>
+                <li><Link href="/blogs"><a>Tin tức</a></Link></li>
+                <li><Link href=""><a>Tuyển dụng</a></Link></li>
+                <li><Link href="/"><a>Khuyến mãi</a></Link></li>
               </ul>
             </div>
             <div className="col">
               Điều khoản sử dụng
               <ul>
-                <li><a href="/terms">Quy chế website</a></li>
-                <li><a href="/policy">Bảo mật thông tin</a></li>
+                <li><Link href="/terms"><a>Quy chế website</a></Link></li>
+                <li><Link href="/policy"><a>Bảo mật thông tin</a></Link></li>
               </ul>
             </div>
             <div className="col">

@@ -22,7 +22,7 @@ function Header() {
           </div>
 
           <ul className='main-nav inline-flex gap-2'>
-            <li>Đặt hàng</li>
+            <li><Link href='/order'>Đặt hàng</Link></li>
             <li>Tin tức</li>
             <li>Cửa hàng</li>
             <li>Khuyến mãi</li>
