@@ -1,11 +1,13 @@
+import type { NextComponentType } from 'next'
 import Image from 'next/image';
 import Link from 'next/link';
 
-function Footer() {
+const Footer:NextComponentType = () => {
   return (
+    <>
     <footer className='text-white flex flex-wrap flex-column'>
       <div className='footer-inner w-full'>
-        <div className='footer-top' style={{'background-image': 'url("images/footer-desktop.png")', 'background-repeat': 'none'}}>
+        <div className='footer-top' style={{backgroundImage: `url("images/footer-desktop.png")`, backgroundRepeat: 'none'}}>
           <div className="container flex columns-4-xl p-2">
             <div className="col">
             <Image src="/images/logo-invert.png" alt="Logo" width={150} height={56} />
@@ -54,6 +56,7 @@ function Footer() {
         </div>
       </div>
     </footer>
+    </>
   )
 }
 

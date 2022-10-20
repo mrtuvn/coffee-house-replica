@@ -1,11 +1,13 @@
+import type { NextComponentType } from 'next'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 import Image from 'next/image'
 
-function Header() {
+const Header:NextComponentType = () => {
   const router = useRouter();
 
   return (
+    <>
     <header className="main-header">
       <div className='container'>
         <div className='topNav text-white flex flex-wrap justify-between h-full items-center'>
@@ -35,8 +37,8 @@ function Header() {
           </div>
         </div>
       </div>
-    
     </header>
+    </>
   )
 }
 
