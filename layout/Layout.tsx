@@ -7,7 +7,7 @@ const Layout: React.FC<any> = ({ children }: any) => {
     return (
         <>
             <Header />
-            <main className='main-content | flex flex-col min-h-full h-full'>
+            <main className='main-content | flow-root min-h-full h-full'>
                 {children}
             </main>
             <Footer />
