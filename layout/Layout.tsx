@@ -1,8 +1,9 @@
+import * as React from 'react'
 import type { NextPage } from 'next'
-import { Footer } from "../components/common/Footer/Footer"
-import { Header }  from "../components/common/Header/Header"
+import Footer from "@/components/common/Footer/Footer"
+import Header  from "@/components/common/Header/Header"
 
-const Layout: NextPage = ({ children }: any) => {
+const Layout: React.FC<any> = ({ children }: any) => {
     return (
         <>
             <Header />

@@ -15,7 +15,7 @@ const Header:NextComponentType = () => {
             <Image src="/images/logo.svg" alt="Logo" width={170} height={14} />
           </Link>
 
-          <div className='address-delivery-wrap | rounded-full p-2 flex gap-2 shrink-0' href='/'>
+          <div className='address-delivery-wrap | rounded-full p-2 flex gap-2 shrink-0'>
             <Image className='w-8 h-8 rounded-full flex-1' src="/images/Delivery2.png" alt="Delivery Logo" width={40} height={40} />
             <div className='action-link-toggle'>
               <h5>Giao hàng</h5>
