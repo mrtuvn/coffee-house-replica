@@ -7,7 +7,7 @@ const Layout: React.FC<any> = ({ children }: any) => {
     return (
         <>
             <Header />
-            <main className='main-content | flow-root min-h-full h-full'>
+            <main className='main-content | pt-20 flow-root min-h-full h-full'>
                 {children}
             </main>
             <Footer />

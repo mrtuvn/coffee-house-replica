@@ -15,6 +15,9 @@ module.exports = {
       },
     },
     extend: {
+      flex: {
+        '25': '0 0 25%'
+      },
       colors: {
         'orange-1': 'rgba(232,130,21,0.7)',
         'orange-2': '#fa8c16',
@@ -22,7 +25,12 @@ module.exports = {
         'orange-4': '#ff792c',
         'orange-5': '#e57905'
       },
+      boxShadow: {
+        'custom': '0px 10px 20px rgba(0,0,0,0.1)'
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+  ],
 }

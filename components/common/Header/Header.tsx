@@ -8,7 +8,7 @@ const Header:NextComponentType = () => {
 
   return (
     <>
-    <header className="main-header">
+    <header className="main-header | z-10">
       <div className='container'>
         <div className='topNav text-white flex flex-wrap justify-between h-full items-center'>
           <Link className='logowrap' href='/'>
