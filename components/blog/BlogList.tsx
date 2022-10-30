@@ -13,15 +13,15 @@ const BlogList:NextComponentType = () => {
                     <div className="even-columns| mx-auto flex flex-wrap gap-8 ">
                     {blogArray.map((blog) => (
                         <>
-                        <div className="card-blog | flex flex-25 flex-col pb-4 shadow-custom rounded-lg">
-                            <div className="blog-image | relative">
-                                <img src={blog.image} className="aspect-auto w-full text-center rounded-lg rounded-b-none shrink-0" alt="blogimage" width="280" height="150" />
+                            <div className="{`card-blog | flex flex-25 flex-col pb-4 shadow-custom rounded-lg `}">
+                                <div className="blog-image | relative">
+                                    <img src={blog.image} className="aspect-auto w-full text-center rounded-lg rounded-b-none shrink-0" alt="blogimage" width="280" height="150" />
+                                </div>
+                                <div className="blog-title | pt-4 px-4 text-ellipsis line-clamp-2">{blog.title}</div>
+                                <div className="blog-actions | px-4 pt-4 ml-auto mt-auto ">
+                                    <button className="bg-btn-main rounded-full text-white p-2 px-4 text-center text-xs ">ĐỌC TIẾP</button>
+                                </div>
                             </div>
-                            <div className="blog-title | pt-4 px-4 text-ellipsis line-clamp-2">{blog.title}</div>
-                            <div className="blog-actions | px-4 pt-4 ml-auto mt-auto ">
-                                <button className="bg-btn-main rounded-full text-white p-2 px-4 text-center text-xs ">ĐỌC TIẾP</button>
-                            </div>
-                        </div>
                         </>
                     ))}
                     </div>

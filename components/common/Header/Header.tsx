@@ -1,8 +1,9 @@
 import type { NextComponentType } from 'next'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
 
+// Server Component
 const Header:NextComponentType = () => {
   const router = useRouter();
 

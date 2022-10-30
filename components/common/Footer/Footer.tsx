@@ -10,23 +10,23 @@ const Footer:NextComponentType = () => {
         <div className='footer-top bg-no-repeat' style={{backgroundImage: `url("images/footer-desktop.png")`, backgroundSize: `cover`}}>
           <div className="container grid items-center grid-cols-2 md:grid-cols-6 xl:grid-cols-12 py-8">
             <div className="col | col-span-4 ">
-              <img src="/images/logo-invert.png" alt="Logo" className="aspect-[4/3]" width={150} height={56} />
+              <Image src="/images/logo-invert.png" alt="Logo" className="aspect-[4/3]" width={150} height={56} />
             </div>
             <div className="col col-span-2">
               +Thông tin website
               <ul className="hidden">
-                <li className='items-baseline'><Link href="/"><a>Trang chủ</a></Link></li>
-                <li className='items-baseline'><Link href="/product-listing"><a>Đặt hàng</a></Link></li>
-                <li className='items-baseline'><Link href="/blogs"><a>Tin tức</a></Link></li>
-                <li className='items-baseline'><Link href=""><a>Tuyển dụng</a></Link></li>
-                <li className='items-baseline'><Link href="/"><a>Khuyến mãi</a></Link></li>
+                <li className='items-baseline'><Link href="/">Trang chủ</Link></li>
+                <li className='items-baseline'><Link href="/product-listing">Đặt hàng</Link></li>
+                <li className='items-baseline'><Link href="/blogs">Tin tức</Link></li>
+                <li className='items-baseline'><Link href="">Tuyển dụng</Link></li>
+                <li className='items-baseline'><Link href="/">Khuyến mãi</Link></li>
               </ul>
             </div>
             <div className="col col-span-2">
               +Điều khoản sử dụng
               <ul className="hidden">
-                <li><Link href="/terms"><a>Quy chế website</a></Link></li>
-                <li><Link href="/policy"><a>Bảo mật thông tin</a></Link></li>
+                <li><Link href="/terms">Quy chế website</Link></li>
+                <li><Link href="/policy">Bảo mật thông tin</Link></li>
               </ul>
             </div>
             <div className="col col-span-2">
