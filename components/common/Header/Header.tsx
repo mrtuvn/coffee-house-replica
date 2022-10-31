@@ -1,3 +1,5 @@
+'use client';
+
 import type { NextComponentType } from 'next'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'

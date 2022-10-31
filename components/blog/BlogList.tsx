@@ -11,11 +11,11 @@ const BlogList:NextComponentType = () => {
                 <div className="wrapper | container">
                     <h5 className="title-blog-section | text-center mb-10 text-3xl font-semibold">Tin Tức</h5>
                     <div className="even-columns| mx-auto flex flex-wrap gap-8 ">
-                    {blogArray.map((blog) => (
+                    {blogArray.map((blog, index) => (
                         <>
-                            <div className="{`card-blog | flex flex-25 flex-col pb-4 shadow-custom rounded-lg `}">
+                            <div className="{`item-${index} card-blog | flex flex-25 flex-col pb-4 shadow-custom rounded-lg `}">
                                 <div className="blog-image | relative">
-                                    <img src={blog.image} className="aspect-auto w-full text-center rounded-lg rounded-b-none shrink-0" alt="blogimage" width="280" height="150" />
+                                    <Image src={blog.image} className="aspect-auto w-full text-center rounded-lg rounded-b-none shrink-0" alt="blogimage" width="280" height="150" />
                                 </div>
                                 <div className="blog-title | pt-4 px-4 text-ellipsis line-clamp-2">{blog.title}</div>
                                 <div className="blog-actions | px-4 pt-4 ml-auto mt-auto ">
