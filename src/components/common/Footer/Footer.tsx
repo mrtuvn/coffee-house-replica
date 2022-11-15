@@ -39,7 +39,7 @@ const Footer:NextComponentType = () => {
               </ul>
             </div>
             <div className="col col-span-2">
-              <p>+Liên hệ</p>
+              +Liên hệ
               <ul className="hidden">
                 <li>Head Office 1: 86 - 88 Cao Thang, Ward 4, District 3, Ho Chi Minh, Vietnam. Head Office 2: Floor 3 & 4 The Hub Building - 195/10E Dien Bien Phu, Ward 15, Binh Thanh District, Ho Chi Minh, Vietnam. +842871 078 079 hi@thecoffeehouse.vn</li>
                 <li>Head Office 2: Floor 3 & 4 The Hub Building - 195/10E Dien Bien Phu, Ward 15, Binh Thanh District, Ho Chi Minh, Vietnam.</li>
